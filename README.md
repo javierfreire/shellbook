@@ -16,16 +16,20 @@ This can be useful to:
 
 ## Installation
 
-TODO
+```shell
+  $ brew tap javierfreire/apps
+
+  $ brew install shellbook
+```
 
 ## Usage
 
 ```shell
-  shellbook https://raw.githubusercontent.com/javierfreire/shellbook/main/examples/setup.md
+  $ shellbook https://raw.githubusercontent.com/javierfreire/shellbook/main/examples/setup.md
 ```
 
 ```shell
-  shellbook folder/onboarding.md#linux
+  $ shellbook folder/onboarding.md#linux
 ```
 
 ## How to start to develop?
@@ -34,7 +38,7 @@ You can follow [the onboarding manual](examples/onboarding.md)
 
 ## Features
 
-### Shell commands
+### Execute shell commands
 
 ```markdown
     ```shell {.play}
@@ -44,7 +48,7 @@ You can follow [the onboarding manual](examples/onboarding.md)
     ```
 ```
 
-### Menu blocks
+### Build a menu
 
 ```markdown
     # Choice {.menu}
@@ -55,7 +59,7 @@ You can follow [the onboarding manual](examples/onboarding.md)
     ...
 ```
 
-### Choice blocks
+### Choice one option
 
 ```markdown
     # Choice {.choice}
@@ -66,7 +70,7 @@ You can follow [the onboarding manual](examples/onboarding.md)
     ...
 ```
 
-### Optional blocks
+### Optional
 
 ```markdown
     ## Any title {.optional}
